@@ -13,4 +13,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.10" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Db\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Db\" />
+  </ItemGroup>
 </Project>
