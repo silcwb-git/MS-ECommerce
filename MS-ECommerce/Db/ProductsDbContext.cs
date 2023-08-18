@@ -1,10 +1,16 @@
-﻿using System;
+﻿
+using System;
+using Microsoft.EntityFrameworkCore;
+
 namespace MS_ECommerce.Db
 {
-	public class EmptyClass
+	public class ProductsDbContext: DbContext
 	{
-		public EmptyClass()
+		public DbSet<Product> Products { get; set; }
+
+		public ProductsDbContext(DbContextOptions options): base(options)
 		{
+
 		}
 	}
 }
