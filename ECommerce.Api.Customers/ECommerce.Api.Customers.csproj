@@ -7,4 +7,10 @@
   </PropertyGroup>
 
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <None Remove="Db\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Db\" />
+  </ItemGroup>
 </Project>
