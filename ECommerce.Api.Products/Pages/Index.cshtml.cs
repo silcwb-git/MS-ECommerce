@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace MS_ECommerce.Pages;
+namespace ECommerce.Api.Products.Pages;
 
 public class IndexModel : PageModel
 {
@@ -17,4 +17,3 @@ public class IndexModel : PageModel
 
     }
 }
-
