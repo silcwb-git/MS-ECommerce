@@ -2,7 +2,7 @@
 using MS_ECommerce.Interfaces;
 using AutoMapper;
 using Microsoft.EntityFrameworkCore;
-using MS_ECommerce.Models;
+using System.Linq;
 
 namespace MS_ECommerce.Providers
 {
@@ -40,6 +40,7 @@ namespace MS_ECommerce.Providers
             try
             {
                 var products = await dbContext.Products.ToListAsync();
+
                 if (products != null && products.Any())
                 {
                     var result = mapper.Map<IEnumerable<Db.Product>, IEnumerable<Models.Product>>(products);
@@ -52,6 +53,36 @@ namespace MS_ECommerce.Providers
                 logger?.LogError(ex.ToString());
                 return (false, null, ex.Message);
             }
+        }
+
+        public IMapper GetMapper()
+        {
+            return mapper;
+        }
+
+        public async Task<(bool IsSuccess, Models.Product Product, string ErrorMessage)> GetProductsAsync(int id, IMapper mapper)
+        {
+            try
+            {
+                var product = await dbContext.Products.FirstOrDefaultAsync(p => p.Id == id);
+
+                if (product != null)
+                {
+                    var result = mapper.Map<Db.Product, Models.Product>(product);
+                    return (true, result, null);
+                }
+                return (false, null, "Not Found");
+            }
+            catch (Exception ex)
+            {
+                logger?.LogError(ex.ToString());
+                return (false, null, ex.Message);
+            }
+        }
+
+        public Task<(bool IsSuccess, Models.Product Product, string ErrorMessage)> GetProductsAsync(int id)
+        {
+            throw new NotImplementedException();
         }
     }
 }
