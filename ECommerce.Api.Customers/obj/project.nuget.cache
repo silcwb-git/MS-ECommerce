@@ -1,8 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "cJiRCOh8GGcdpb3w5YmdLuJiIZNVP9q0Zx0DCRNILc7AQnjUC+GQZDzGcUupLvBBXTU+mV9d0QQPr5Kxae5OmQ==",
+  "dgSpecHash": "UQldQfkvp7OAwWM9FeMwVeS/uQ2f6GhLYez8srulq0DvdDC2KzxbEZu79gtH5SG6S1WNMSoSg3C3vnsSBllukw==",
   "success": true,
   "projectFilePath": "/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Customers/ECommerce.Api.Customers.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/silcwb/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.entityframeworkcore.analyzers/7.0.10/microsoft.entityframeworkcore.analyzers.7.0.10.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.entityframeworkcore.inmemory/7.0.10/microsoft.entityframeworkcore.inmemory.7.0.10.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.caching.abstractions/7.0.0/microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.caching.memory/7.0.0/microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.dependencyinjection/7.0.0/microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.logging/7.0.0/microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.logging.abstractions/7.0.0/microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "/Users/silcwb/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
