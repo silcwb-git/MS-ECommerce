@@ -1,0 +1,8 @@
+/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Projects/obj/Debug/net7.0/ECommerce.Api.Products.csproj.AssemblyReference.cache
+/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Projects/obj/Debug/net7.0/ECommerce.Api.Products.GeneratedMSBuildEditorConfig.editorconfig
+/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Projects/obj/Debug/net7.0/ECommerce.Api.Products.AssemblyInfoInputs.cache
+/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Projects/obj/Debug/net7.0/ECommerce.Api.Products.AssemblyInfo.cs
+/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Projects/obj/Debug/net7.0/ECommerce.Api.Products.csproj.CoreCompileInputs.cache
+/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Projects/obj/Debug/net7.0/ECommerce.Api.Products.MvcApplicationPartsAssemblyInfo.cache
+/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Projects/obj/Debug/net7.0/ECommerce.Api.Products.RazorAssemblyInfo.cache
+/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Projects/obj/Debug/net7.0/ECommerce.Api.Products.RazorAssemblyInfo.cs
