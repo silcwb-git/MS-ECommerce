@@ -11,11 +11,13 @@
     <None Remove="Db\" />
     <None Remove="Interfaces\" />
     <None Remove="Models\" />
+    <None Remove="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Db\" />
     <Folder Include="Interfaces\" />
     <Folder Include="Models\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />

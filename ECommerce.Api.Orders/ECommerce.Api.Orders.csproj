@@ -11,11 +11,13 @@
     <None Remove="Db\" />
     <None Remove="Models\" />
     <None Remove="Interfaces\" />
+    <None Remove="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Db\" />
     <Folder Include="Models\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="Profiles\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
