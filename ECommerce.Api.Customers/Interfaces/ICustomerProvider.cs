@@ -1,8 +1,9 @@
 ﻿using System;
 namespace ECommerce.Api.Customers.Interfaces
 {
-	public interface ICustomerProvider
-	{
-	}
+    public interface ICustomerProvider
+    {
+        Task<bool IsSuccess, IEnumerable<Customer>>
+    }
 }
 
