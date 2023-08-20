@@ -23,7 +23,8 @@ namespace ECommerce.Api.Orders.Providers
 
         private void SeedOrdersData()
         {
-            dbContext.Add(new Db.Order { Id = 1, CustomerId = 1, Items = 2, OrderDate = DateTime.Parse("01/08/2019 12:08:33"), Total = 10 });
+            dbContext.Add(new Db.Order { Id = 1, CustomerId = 1, Items = 2, OrderDate = DateTime.Parse("12/04/2023 12:08:33"), Total = 10 });
+            dbContext.Add(new Db.Order { Id = 1, CustomerId = 2, Items = 1, OrderDate = DateTime.Parse("01/02/2019 12:08:33"), Total = 100 });
         }
 
         public Task<(bool IsSuccess, IEnumerable<Models.Order> orders, string errorMessage)> GetOrdersAsync()
