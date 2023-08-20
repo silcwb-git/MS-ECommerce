@@ -11,7 +11,7 @@ namespace ECommerce.Api.Orders.Db
 
         public int Total { get; set; }
 
-        public required Array Items { get; set; }
+        public int Items { get; set; }
 
     }
 }
