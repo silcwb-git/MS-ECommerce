@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "yb9qZXNgV3ljvoyrRMUBxh7B+0A6+d8VE3lcLzejtS0FEXC9+MwzUqWCayWlgsAIDsXyjQ2dqZMF+t8tsHpTiQ==",
+  "dgSpecHash": "E38ha4eJW2Vi7dI+bb+tJXZh2akJgBqpM/4cfqO6CtnQsBDlezMYOZ56TTjOaSbgpxrWXqk65AUo2y6Tyqgbbw==",
   "success": true,
-  "projectFilePath": "/Users/silcwb/Projects/MS-ECommerce/MS-ECommerce/ECommerce.Api.Products.csproj",
+  "projectFilePath": "/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Products/ECommerce.Api.Products.csproj",
   "expectedPackageFiles": [
     "/Users/silcwb/.nuget/packages/automapper/12.0.1/automapper.12.0.1.nupkg.sha512",
-    "/Users/silcwb/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/12.0.1/automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "/Users/silcwb/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/silcwb/.nuget/packages/microsoft.entityframeworkcore/7.0.10/microsoft.entityframeworkcore.7.0.10.nupkg.sha512",
     "/Users/silcwb/.nuget/packages/microsoft.entityframeworkcore.abstractions/7.0.10/microsoft.entityframeworkcore.abstractions.7.0.10.nupkg.sha512",

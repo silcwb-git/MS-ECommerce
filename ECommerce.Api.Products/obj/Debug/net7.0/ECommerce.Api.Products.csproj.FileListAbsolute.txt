@@ -44,7 +44,6 @@
 /Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Products/bin/Debug/net7.0/ECommerce.Api.Products.dll
 /Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Products/bin/Debug/net7.0/ECommerce.Api.Products.pdb
 /Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Products/bin/Debug/net7.0/AutoMapper.dll
-/Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Products/bin/Debug/net7.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
 /Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
 /Users/silcwb/Projects/MS-ECommerce/ECommerce.Api.Products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.InMemory.dll
