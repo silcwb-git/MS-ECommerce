@@ -13,6 +13,7 @@
     <None Remove="Interfaces\" />
     <None Remove="Profiles\" />
     <None Remove="Providers\" />
+    <None Remove="Controller\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Db\" />
@@ -20,6 +21,7 @@
     <Folder Include="Interfaces\" />
     <Folder Include="Profiles\" />
     <Folder Include="Providers\" />
+    <Folder Include="Controller\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />

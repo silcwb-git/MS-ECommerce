@@ -10,7 +10,7 @@ namespace ECommerce.Api.Customers.Controllers
     {
         private readonly ICustomerProvider customersProvider;
 
-        public CustomersController(ICustomerProvider customerProvider)
+        public CustomersController(ICustomerProvider customersProvider)
         {
             this.customersProvider = customersProvider;
         }
